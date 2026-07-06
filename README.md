@@ -6,11 +6,11 @@ This project fine-tunes GPT-2 on a custom healthcare dataset to generate structu
 
 The generated output follows a standardized format containing:
 
-Overview
-Key Evidence
-Clinical Relevance
-Safety Notes
-Key Takeaway
+- Overview
+- Key Evidence
+- Clinical Relevance
+- Safety Notes
+- Key Takeaway
 
 This enables rapid generation of concise evidence summaries for healthcare professionals, medical writers, and health-tech applications.
 
@@ -52,13 +52,15 @@ PROMPT: Semaglutide obesity outcomes
 
 The model generates a structured evidence brief containing overview, evidence summary, clinical relevance, safety notes, and key takeaways.
 
-Repository Structure
+## Repository Structure
 PRODIGY_GA_01
 │
+├── medical_evidence_dataset.txt
 ├── PRODIGY_GA_01_GPT2_Text_Generation.ipynb
 ├── requirements.txt
 ├── README.md
 └── screenshots/
+
 
 ## Screenshots
 
