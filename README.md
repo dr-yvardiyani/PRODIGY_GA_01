@@ -25,15 +25,16 @@ Custom healthcare training dataset containing:
 61,916 characters
 7,645 words
 
-## Topics included: 
-Semaglutide
-Empagliflozin
-SGLT2 Inhibitors
-Heart Failure
-Tirzepatide
-Cardiovascular Diseases
-Type 2 Diabetes
-GLP-1 Receptor Agonists
+## Topics Included
+
+- Semaglutide
+- Empagliflozin
+- SGLT2 Inhibitors
+- Heart Failure
+- Tirzepatide
+- Cardiovascular Diseases
+- Type 2 Diabetes
+- GLP-1 Receptor Agonists
 
 ## Technologies Used
 - Python
@@ -49,7 +50,7 @@ GLP-1 Receptor Agonists
 - Final Training Loss: ~0.40
   
 ## Sample Prompt
-PROMPT: Semaglutide obesity outcomes
+Semaglutide obesity outcomes
 
 ## Sample Generated Output
 OVERVIEW:
@@ -92,6 +93,5 @@ PRODIGY_GA_01
 ### Generated Output
 ![Generated Output](screenshots/task1_generated_output.png)
 
-Internship Information
-
+## Internship Information
 Completed as part of the Generative AI Internship Program at Prodigy InfoTech.
