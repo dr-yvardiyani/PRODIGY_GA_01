@@ -50,7 +50,22 @@ GLP-1 Receptor Agonists
 ## Sample Prompt
 PROMPT: Semaglutide obesity outcomes
 
-The model generates a structured evidence brief containing overview, evidence summary, clinical relevance, safety notes, and key takeaways.
+## Sample Generated Output
+OVERVIEW:
+Early recognition and management of obesity-related comorbidities remain critical components of modern obesity management.
+
+KEY EVIDENCE:
+Systematic review evidence suggests that obesity-related comorbidities contribute significantly to morbidity and mortality in semaglutide users.
+
+CLINICAL RELEVANCE:
+Understanding comorbid obesity symptoms may reduce patient initiation and progression to symptomatic obesity.
+
+SAFETY NOTES:
+Although evidence suggests improvements in glycemic control, clinicians should monitor comorbid comorbid conditions for potential interactions.
+
+KEY TAKEAWAY:
+Emerging evidence highlights the important role of obesity comorbidity in managing obesity-related comorbidities.
+
 
 ## Repository Structure
 PRODIGY_GA_01
