@@ -18,6 +18,7 @@ This enables rapid generation of concise evidence summaries for healthcare profe
 Develop a domain-specific text generation model capable of producing coherent and contextually relevant clinical evidence briefs from a single short prompt.
 
 ## Dataset
+
 Custom healthcare training dataset containing:
 
 74 structured prompt-output examples
