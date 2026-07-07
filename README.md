@@ -1,7 +1,9 @@
 # PRODIGY_GA_01
+
 ## Medical Evidence Brief Generator using GPT-2
 
 ## Overview
+
 This project fine-tunes GPT-2 on a custom healthcare dataset to generate structured clinical evidence briefs from short medical prompts. The model was trained on curated examples covering diabetes, cardiovascular disease, heart failure, GLP-1 receptor agonists, SGLT2 inhibitors, and related therapeutic areas.
 
 The generated output follows a standardized format containing:
@@ -15,6 +17,7 @@ The generated output follows a standardized format containing:
 This enables rapid generation of concise evidence summaries for healthcare professionals, medical writers, and health-tech applications.
 
 ## Project Objective
+
 Develop a domain-specific text generation model capable of producing coherent and contextually relevant clinical evidence briefs from a single short prompt.
 
 ## Dataset
@@ -37,6 +40,7 @@ Custom healthcare training dataset containing:
 - GLP-1 Receptor Agonists
 
 ## Technologies Used
+
 - Python
 - Hugging Face Transformers
 - PyTorch
@@ -44,15 +48,18 @@ Custom healthcare training dataset containing:
 - Google Colab
 
 ## Training Details
+
 - Base Model: GPT-2
 - Fine-tuning Framework: Hugging Face Transformers
 - Training Steps: 640
 - Final Training Loss: ~0.40
   
 ## Sample Prompt
+
 Semaglutide obesity outcomes
 
 ## Sample Generated Output
+
 OVERVIEW:
 Early recognition and management of obesity-related comorbidities remain critical components of modern obesity management.
 
@@ -68,16 +75,22 @@ Although evidence suggests improvements in glycemic control, clinicians should m
 KEY TAKEAWAY:
 Emerging evidence highlights the important role of obesity comorbidity in managing obesity-related comorbidities.
 
-
 ## Repository Structure
+
 PRODIGY_GA_01
 │
+├── screenshots/
+│   ├── task1_dataset_stats.png
+│   ├── task1_training_progress.png
+│   ├── task1_training_complete.png
+│   └── task1_generated_output.png
+│
+├── .gitignore
+├── LICENSE
 ├── medical_evidence_dataset.txt
 ├── PRODIGY_GA_01_GPT2_Text_Generation.ipynb
 ├── requirements.txt
-├── README.md
-└── screenshots/
-
+└── README.md
 
 ## Screenshots
 
