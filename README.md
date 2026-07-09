@@ -1,6 +1,8 @@
 # PRODIGY_GA_01
 
-## Medical Evidence Brief Generator using GPT-2
+## Task 01 - Generative AI Internship @ Prodigy InfoTech
+
+## Medical Evidence Brief Generator using  Fine-Tuned GPT-2
 
 ## Overview
 
@@ -20,6 +22,14 @@ This enables rapid generation of concise evidence summaries for healthcare profe
 
 Develop a domain-specific text generation model capable of producing coherent and contextually relevant clinical evidence briefs from a single short prompt.
 
+## Features
+
+- GPT-2 fine-tuning on a custom healthcare dataset
+- Structured clinical evidence brief generation
+- Medical prompt-to-summary workflow
+- Standardized output format
+- Implemented in Google Colab
+  
 ## Dataset
 
 Custom healthcare training dataset containing:
@@ -53,6 +63,23 @@ Custom healthcare training dataset containing:
 - Fine-tuning Framework: Hugging Face Transformers
 - Training Steps: 640
 - Final Training Loss: ~0.40
+
+  ## Project Workflow
+
+1. Collected and curated medical evidence examples.
+2. Created structured prompt-output training pairs.
+3. Loaded GPT-2 tokenizer and pre-trained model.
+4. Tokenized and prepared the dataset.
+5. Fine-tuned GPT-2 on healthcare-specific data.
+6. Generated evidence briefs from custom prompts.
+7. Evaluated generated outputs.
+
+   ## Results
+
+- Successfully fine-tuned GPT-2 on a custom healthcare dataset.
+- Final training loss reached approximately 0.40.
+- Generated structured clinical evidence briefs from short medical prompts.
+- Maintained output consistency across multiple therapeutic areas.
   
 ## Sample Prompt
 
