@@ -34,9 +34,9 @@ Develop a domain-specific text generation model capable of producing coherent an
 
 Custom healthcare training dataset containing:
 
-74 structured prompt-output examples
-61,916 characters
-7,645 words
+- 74 structured prompt-output examples
+- 61,916 characters
+- 7,645 words
 
 ## Topics Included
 
@@ -79,7 +79,6 @@ Custom healthcare training dataset containing:
 - Successfully fine-tuned GPT-2 on a custom healthcare dataset.
 - Final training loss reached approximately 0.40.
 - Generated structured clinical evidence briefs from short medical prompts.
-- Maintained output consistency across multiple therapeutic areas.
   
 ## Sample Prompt
 
