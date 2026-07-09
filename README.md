@@ -131,6 +131,3 @@ PRODIGY_GA_01
 
 ### Generated Output
 ![Generated Output](screenshots/task1_generated_output.png)
-
-## Internship Information
-Completed as part of the Generative AI Internship Program at Prodigy InfoTech.
